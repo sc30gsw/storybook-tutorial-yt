@@ -1,6 +1,14 @@
 {
-  "extends": ["next/core-web-vitals"],
-  "plugins": ["@typescript-eslint", "prettier", "simple-import-sort", "import"],
+  "extends": [
+    "next/core-web-vitals",
+    "plugin:storybook/recommended"
+  ],
+  "plugins": [
+    "@typescript-eslint",
+    "prettier",
+    "simple-import-sort",
+    "import"
+  ],
   "rules": {
     "prettier/prettier": [
       "error",
@@ -12,10 +20,10 @@
       }
     ],
     "simple-import-sort/imports": "error",
-		"simple-import-sort/exports": "error",
-		"import/first": "error",
-		"import/newline-after-import": "error",
-		"import/no-duplicates": "error",
-		"@typescript-eslint/consistent-type-imports": "error"
+    "simple-import-sort/exports": "error",
+    "import/first": "error",
+    "import/newline-after-import": "error",
+    "import/no-duplicates": "error",
+    "@typescript-eslint/consistent-type-imports": "error"
   }
 }

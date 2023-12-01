@@ -6,8 +6,7 @@ const meta = {
   component: Circle,
   title: 'Circle',
   argTypes: {
-    variant: { control: 'select' },
-    options: ['orange', 'green', 'yellow'],
+    variant: { control: 'select', options: ['orange', 'green', 'yellow'] },
   },
 } satisfies Meta<typeof Circle>
 

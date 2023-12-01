@@ -1,6 +1,6 @@
 const Home = () => {
   return (
-    <main className="text-2xl text-green-300 font-bold">Hello StoryBook</main>
+    <main className="text-2xl text-sky-600 font-bold">Hello StoryBook</main>
   )
 }
 

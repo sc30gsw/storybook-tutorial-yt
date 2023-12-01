@@ -4,7 +4,7 @@ import Circle from '@/stories/Circle'
 
 const meta = {
   component: Circle,
-  title: 'Circle',
+  title: 'Example/Circle',
   argTypes: {
     variant: { control: 'select', options: ['orange', 'green', 'yellow'] },
   },

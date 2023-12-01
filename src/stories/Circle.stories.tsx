@@ -31,3 +31,13 @@ export const YellowCircle: Story = {
     variant: 'yellow',
   },
 }
+
+export const GroupCircle: Story = {
+  render: () => (
+    <div className="p-10">
+      <Circle />
+      <Circle variant="green" />
+      <Circle variant="yellow" />
+    </div>
+  ),
+}

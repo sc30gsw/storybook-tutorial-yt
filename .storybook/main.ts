@@ -8,7 +8,6 @@ const config: StorybookConfig = {
     "@storybook/addon-essentials",
     "@storybook/addon-onboarding",
     "@storybook/addon-interactions",
-    "@storybook/addon-postcss"
   ],
   framework: {
     name: "@storybook/nextjs",

@@ -1,7 +1,7 @@
 import React from 'react'
 
 type CircleProps = {
-  variant: 'orange' | 'green' | 'yellow'
+  variant?: 'orange' | 'green' | 'yellow'
 }
 
 const Circle: React.FC<CircleProps> = ({ variant = 'orange' }) => {

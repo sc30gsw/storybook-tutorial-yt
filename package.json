@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint --dir src",
-    "format":"next lint --fix --dir src",
+    "format": "next lint --fix --dir src",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
   },
@@ -21,7 +21,6 @@
     "@storybook/addon-interactions": "^7.6.2",
     "@storybook/addon-links": "^7.6.2",
     "@storybook/addon-onboarding": "^1.0.8",
-    "@storybook/addon-postcss": "^2.0.0",
     "@storybook/blocks": "^7.6.2",
     "@storybook/nextjs": "^7.6.2",
     "@storybook/react": "^7.6.2",

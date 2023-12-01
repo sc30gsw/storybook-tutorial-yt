@@ -1,6 +1,9 @@
 import React from 'react'
 
 type CircleProps = {
+  /**
+   * 円のPropsで円の色をセレクトできます
+   */
   variant?: 'orange' | 'green' | 'yellow'
 }
 

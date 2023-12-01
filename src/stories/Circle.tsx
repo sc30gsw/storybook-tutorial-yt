@@ -4,6 +4,9 @@ type CircleProps = {
   variant?: 'orange' | 'green' | 'yellow'
 }
 
+/**
+ * プロジェクトで使用する円のUIコンポーネントです
+ */
 const Circle: React.FC<CircleProps> = ({ variant = 'orange' }) => {
   const getBackgroundColor = (variant: 'orange' | 'green' | 'yellow') => {
     switch (variant) {
